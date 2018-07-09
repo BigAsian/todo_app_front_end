@@ -8,3 +8,14 @@ font-family: cursive;
     color: blue;
     font-style: italic;
 }
+
+#add-todo-button{
+    font-size: 15px;
+    color: blue;
+    
+}
+
+#add-todo-button:active{
+    background-color: red;
+    box-shadow: 2px 2px 2px;
+}
