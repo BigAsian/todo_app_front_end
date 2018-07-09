@@ -5,17 +5,41 @@ font-family: cursive;
 
 .hour-estimate{
     font-weight: bolder;
-    color: blue;
+    color: red;
     font-style: italic;
+    font-size: small;
 }
 
 #add-todo-button{
     font-size: 15px;
     color: blue;
+    background-color: orange
     
 }
 
 #add-todo-button:active{
     background-color: red;
     box-shadow: 2px 2px 2px;
+    color: green;
 }
+
+li{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"]{
+    border: dotted;
+    border-color: red;
+    border-width: thick
+}
+
+a:hover{
+    color: blue;
+}
+
+a{
+    color: black;
+}
+
+
