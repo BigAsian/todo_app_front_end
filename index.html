@@ -1,18 +1,38 @@
 <html>
     <head>
         <title>To Do list</title>
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <u1>
-            <li><input type="checkbox"><a href="show.html">Wake up</a></li>
-            <li><input type="checkbox"><a href="show.html">Wake up</a></li>
-            <li><input type="checkbox"><a href="show.html">Eat food</a></li>
-            <li><input type="checkbox"><a href="show.html">Perform cellular respiration</a></li>
-            <li><input type="checkbox"><a href="show.html">Exist</a></li>
-            <li><input type="checkbox"><a href="show.html">Sleep</a></li>
+            <li>
+                <input type="checkbox">
+                <a href="show.html">Wake up</a>
+                <span class="hour-estimate">(.1 hours)</span>
+            </li>
+            <li>
+                <input type="checkbox">
+                <a href="show.html">Eat food</a>
+                <span class="hour-estimate">(1 hour)</span>
+            </li>
+            <li>
+                <input type="checkbox">
+                <a href="show.html">Perform cellular respiration</a>
+                <span class="hour-estimate">(24 hours)</span>
+            </li>
+            <li>
+                <input type="checkbox"><a href="show.html">
+                Exist</a>
+                <span class="hour-estimate">(24 hours)</span>
+            </li>
+            <li>
+                <input type="checkbox">
+                <a href="show.html">Sleep</a>
+                <span class="hour-estimate">(8 hours)</span>
+            </li>
         </u1>
         <input type="text" placeholder="Add new todo">
-        <input type="number" placeholder="Add pomodoro">
+        <input type="number" placeholder="Add hour(s)">
         <input type="submit" value="Add todo">
     </body>
 </html>
