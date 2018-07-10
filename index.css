@@ -53,6 +53,7 @@ h1{
     padding: 15px; 
     width: px;
     height: px;
+    border-style: double
     
 }
 
@@ -62,4 +63,8 @@ div{
 
 body{
     background-color: silver;
+}
+
+.completed-todo{
+    text-decoration: line-through;
 }
