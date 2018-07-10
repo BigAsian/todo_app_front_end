@@ -2,6 +2,8 @@
     <head>
         <title>To Do list</title>
         <link rel="stylesheet" href="index.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="index.js"></script>
     </head>
     <body>
         <h1>ToDos</h1>
@@ -9,31 +11,31 @@
             <li>
                 <input type="checkbox">
                 <a href="show.html">Wake up</a>
-                <span class="hour-estimate">(.1 hours)</span>
+                <span class="hour-estimate">.1 hour(s)</span>
             </li>
             <li>
                 <input type="checkbox">
                 <a href="show.html">Eat food</a>
-                <span class="hour-estimate">(1 hour)</span>
+                <span class="hour-estimate">1 hour(s)</span>
             </li>
             <li>
                 <input type="checkbox">
                 <a href="show.html">Perform cellular respiration</a>
-                <span class="hour-estimate">(24 hours)</span>
+                <span class="hour-estimate">24 hour(s)</span>
             </li>
             <li>
                 <input type="checkbox"><a href="show.html">
                 Exist</a>
-                <span class="hour-estimate">(24 hours)</span>
+                <span class="hour-estimate">24 hour(s)</span>
             </li>
             <li>
                 <input type="checkbox">
                 <a href="show.html">Sleep</a>
-                <span class="hour-estimate">(8 hours)</span>
+                <span class="hour-estimate">8 hour(s)</span>
             </li>
         </u1>
-        <span><input type="text" placeholder="Add new todo"></span>
-        <span><input type="number" placeholder="Add hour(s)"></span>
+        <span><input id="add-todo-text" type="text" placeholder="Add new todo"></span>
+        <span><input id="add-hour" type="number" placeholder="Add hour(s)"></span>
         <div><input id="add-todo-button" type="submit" value="Add todo"></div>
     </body>
 </html>
