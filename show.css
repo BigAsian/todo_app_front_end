@@ -1,9 +1,12 @@
-.html{
+html{
     font-family: cursive;
     
 }
 
 body{
-    background-image: url(http://bsnscb.com/data/out/138/39435197-notepad-wallpapers.jpg);
-    background-color: blue;
+    background-color: red;
+}
+
+h1{
+    text-align: center;
 }
